@@ -5,13 +5,35 @@
   padding: 20px;
 }
 
+body {
+  font-size: 30px;
+}
+
 .box {
   display: grid;
   grid-template-columns: 300px 300px 300px 1fr;
 }
 
 .mozzarella {
-  border-width: medium;
-  border-color: DodgerBlue;
-  padding: 20px;
+  padding-top: 25px;
+  background-color: dodgerblue;
+  height: 350px;
+}
+
+.cheese {
+}
+
+p::first-letter {
+  color: red;
+  font-size: 64px;
+}
+
+p:nth-last-child(3) {
+font-family: helvetica;
+font-size: 18px;
+}
+
+[title~=cool] {
+  background-color: yellow;
+  padding: 30px;
 }
