@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  background-color: salmon;
+  justify-content: center;
+  padding: 20px;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 1fr;
+}
+
+.mozzarella {
+  border-width: medium;
+  border-color: DodgerBlue;
+  padding: 20px;
+}
